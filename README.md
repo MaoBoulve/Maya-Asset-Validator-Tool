@@ -35,7 +35,7 @@ Following code block should be copied into the Maya script editor and run.
     # rename [User directory name] to user account Maya files is installed under
     sys.path.append('/Users/[User directory name]/Documents/maya/scripts/Maya-Game-Asset-Validator-Tool/Metadata')
     sys.path.append('/Users/[User directory name]/Documents/maya/scripts/Maya-Game-Asset-Validator-Tool/QtInterface')
-    sys.path.append('/Users/[User directory name]/Documents/maya/scripts/Maya-Game-Asset-Validator-ToolValidator')
+    sys.path.append('/Users/[User directory name]/Documents/maya/scripts/Maya-Game-Asset-Validator-Tool/Validator')
     
     import validator_commands
     

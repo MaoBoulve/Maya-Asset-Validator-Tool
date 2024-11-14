@@ -1,4 +1,8 @@
-This tool is a generic game asset validator for Maya. It allows a user to tag assets as part of Prop, Animation, and Character groups and validate for common asset requirements (detailed below).
+# Overview
+
+A generic game asset validator for Maya. 
+
+Tag assets as part of Prop, Animation, and Character groups. Validate for common asset requirements (detailed below).
 
 Metadata modules provided courtesy of Micah Zahm
 
@@ -20,15 +24,23 @@ Metadata modules provided courtesy of Micah Zahm
   - Mesh has no keyed attributes in specified timeframe
   - Collision Meshes are present, searching with user defined prefix
 
-Following code block should be copied into the Maya script editor and run.
+# Setup
+
+1. Place 'Maya-Simple-Rigging-Tool' folder into Maya scripts directory.
+
+Default Maya script directory is at **C:\Users\\[Username]\\Documents\maya\scripts**
+
+![img.png](img.png)
+
+2. Open Maya script editor
+
+![img22.png](img22.png)
+
+
+3. Edit filepath in following code block, then paste into a **Python** script editor
 
 '''
-    
-    # Place Metadata, QInterface, and Validator folders into .../Documents/maya/scripts/ folder
-    # Edit filepaths then copy the following code into a Maya Python script and run.
-    # To add the code as a shelf button: Hit Ctrl + A, then Middle Click-dragging the code up to shelf
-    
-    
+
     import sys
     
     
@@ -45,3 +57,9 @@ Following code block should be copied into the Maya script editor and run.
     validator_commands.run()
 
 '''
+
+![img_1.png](img_1.png)
+
+4. Create a Toolbar Button for ease of use by middle-click dragging script text
+
+![img_2.png](img_2.png)

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>668</width>
-    <height>427</height>
+    <width>484</width>
+    <height>497</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -32,8 +32,8 @@
          <rect>
           <x>0</x>
           <y>0</y>
-          <width>646</width>
-          <height>405</height>
+          <width>462</width>
+          <height>475</height>
          </rect>
         </property>
         <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -52,7 +52,7 @@
          <item>
           <widget class="QTabWidget" name="tab_validationTasks">
            <property name="currentIndex">
-            <number>1</number>
+            <number>0</number>
            </property>
            <widget class="QWidget" name="characterGroupTab">
             <attribute name="title">
@@ -100,15 +100,15 @@
                   <enum>QFrame::NoFrame</enum>
                  </property>
                  <property name="currentIndex">
-                  <number>0</number>
+                  <number>4</number>
                  </property>
                  <widget class="QWidget" name="page_characterMaterials">
                   <property name="geometry">
                    <rect>
                     <x>0</x>
                     <y>0</y>
-                    <width>638</width>
-                    <height>238</height>
+                    <width>454</width>
+                    <height>262</height>
                    </rect>
                   </property>
                   <attribute name="label">
@@ -1105,8 +1105,8 @@
                    <rect>
                     <x>0</x>
                     <y>0</y>
-                    <width>638</width>
-                    <height>238</height>
+                    <width>454</width>
+                    <height>262</height>
                    </rect>
                   </property>
                   <attribute name="label">
@@ -1143,8 +1143,8 @@
                    <rect>
                     <x>0</x>
                     <y>0</y>
-                    <width>638</width>
-                    <height>238</height>
+                    <width>454</width>
+                    <height>262</height>
                    </rect>
                   </property>
                   <attribute name="label">
@@ -1393,8 +1393,8 @@
                    <rect>
                     <x>0</x>
                     <y>0</y>
-                    <width>638</width>
-                    <height>238</height>
+                    <width>454</width>
+                    <height>262</height>
                    </rect>
                   </property>
                   <property name="sizePolicy">
@@ -1440,6 +1440,11 @@
                     </layout>
                    </item>
                   </layout>
+                 </widget>
+                 <widget class="QWidget" name="page_3">
+                  <attribute name="label">
+                   <string/>
+                  </attribute>
                  </widget>
                 </widget>
                </item>
@@ -1493,7 +1498,7 @@
                   <enum>QFrame::NoFrame</enum>
                  </property>
                  <property name="currentIndex">
-                  <number>0</number>
+                  <number>2</number>
                  </property>
                  <widget class="QWidget" name="keyframe_settings">
                   <property name="enabled">
@@ -1504,7 +1509,7 @@
                     <x>0</x>
                     <y>0</y>
                     <width>638</width>
-                    <height>292</height>
+                    <height>282</height>
                    </rect>
                   </property>
                   <property name="sizePolicy">
@@ -1853,8 +1858,8 @@
                    <rect>
                     <x>0</x>
                     <y>0</y>
-                    <width>98</width>
-                    <height>132</height>
+                    <width>638</width>
+                    <height>252</height>
                    </rect>
                   </property>
                   <attribute name="label">
@@ -1903,6 +1908,11 @@
                     </layout>
                    </item>
                   </layout>
+                 </widget>
+                 <widget class="QWidget" name="page">
+                  <attribute name="label">
+                   <string/>
+                  </attribute>
                  </widget>
                 </widget>
                </item>
@@ -1956,7 +1966,7 @@
                   <enum>QFrame::NoFrame</enum>
                  </property>
                  <property name="currentIndex">
-                  <number>0</number>
+                  <number>5</number>
                  </property>
                  <widget class="QWidget" name="page_propMaterial">
                   <property name="enabled">
@@ -1967,7 +1977,7 @@
                     <x>0</x>
                     <y>0</y>
                     <width>621</width>
-                    <height>236</height>
+                    <height>242</height>
                    </rect>
                   </property>
                   <property name="sizePolicy">
@@ -2944,7 +2954,7 @@
                     <x>0</x>
                     <y>0</y>
                     <width>98</width>
-                    <height>93</height>
+                    <height>130</height>
                    </rect>
                   </property>
                   <attribute name="label">
@@ -3000,7 +3010,7 @@
                     <x>0</x>
                     <y>0</y>
                     <width>98</width>
-                    <height>158</height>
+                    <height>210</height>
                    </rect>
                   </property>
                   <attribute name="label">
@@ -3037,8 +3047,8 @@
                    <rect>
                     <x>0</x>
                     <y>0</y>
-                    <width>364</width>
-                    <height>191</height>
+                    <width>390</width>
+                    <height>211</height>
                    </rect>
                   </property>
                   <attribute name="label">
@@ -3268,8 +3278,8 @@
                    <rect>
                     <x>0</x>
                     <y>0</y>
-                    <width>201</width>
-                    <height>153</height>
+                    <width>638</width>
+                    <height>163</height>
                    </rect>
                   </property>
                   <attribute name="label">
@@ -3402,6 +3412,11 @@
                    </item>
                   </layout>
                  </widget>
+                 <widget class="QWidget" name="page_2">
+                  <attribute name="label">
+                   <string/>
+                  </attribute>
+                 </widget>
                 </widget>
                </item>
               </layout>
@@ -3427,6 +3442,11 @@
            </item>
            <item>
             <widget class="QPushButton" name="btn_run_all">
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+    background-color:rgb(82, 100, 66) ;
+}</string>
+             </property>
              <property name="text">
               <string>Validate All Groups</string>
              </property>
@@ -3434,6 +3454,11 @@
            </item>
            <item>
             <widget class="QPushButton" name="btn_run">
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+    background-color:rgb(82, 188, 66) ;
+}</string>
+             </property>
              <property name="text">
               <string>Validate Group</string>
              </property>
@@ -3454,6 +3479,11 @@
            </item>
            <item>
             <widget class="QPushButton" name="btn_open_tagging">
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+    background-color:rgb(51, 53, 159) ;
+}</string>
+             </property>
              <property name="text">
               <string>Asset Tagging</string>
              </property>
@@ -3666,9 +3696,9 @@
   </connection>
  </connections>
  <buttongroups>
-  <buttongroup name="btnGrp_emptyKeyRangeProp"/>
-  <buttongroup name="btnGrp_attribOption"/>
   <buttongroup name="btnGrp_keyRange"/>
   <buttongroup name="btnGrp_emptyKeyRange"/>
+  <buttongroup name="btnGrp_emptyKeyRangeProp"/>
+  <buttongroup name="btnGrp_attribOption"/>
  </buttongroups>
 </ui>
